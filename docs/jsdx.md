@@ -1,3 +1,14 @@
+---
+AIGC:
+  ContentProducer: '001191110102MAD55U9H0F10002'
+  ContentPropagator: '001191110102MAD55U9H0F10002'
+  Label: '1'
+  ProduceID: '4394e33b-4889-4157-86b9-57cd9e5157d0'
+  PropagateID: '4394e33b-4889-4157-86b9-57cd9e5157d0'
+  ReservedCode1: '813fc539-184b-4374-9401-0e0324be6b56'
+  ReservedCode2: '813fc539-184b-4374-9401-0e0324be6b56'
+---
+
 |字节位置|数据类型|内容|说明|
 |-|-|-|-|
 |0|uint8|`0xFF`|帧头|
@@ -14,3 +25,4 @@
 |30|uint8|check_byte|校验字节|
 |31|uint8|`0x0D`|帧尾|
 
+> AI生成
